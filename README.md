@@ -5,4 +5,4 @@
  待完善内容：
  
     1. ets-client 两种方案：基于消息、基于redis pub/sub
-    2. ets-server webconsole
+    2. ets-manage webconsole

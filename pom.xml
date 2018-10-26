@@ -23,7 +23,8 @@
     <modules>
         <module>ets-schedule</module>
         <module>ets-util</module>
-        <module>ets-server</module>
+        <module>ets-manage</module>
+        <module>ets-client</module>
     </modules>
 
 

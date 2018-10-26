@@ -10,9 +10,9 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ets-server</artifactId>
+    <artifactId>ets-manage</artifactId>
     <version>1.0</version>
-    <name>ets-server</name>
+    <name>ets-manage</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
