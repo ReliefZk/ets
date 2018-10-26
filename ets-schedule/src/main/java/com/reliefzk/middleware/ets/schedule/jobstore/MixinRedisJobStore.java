@@ -12,7 +12,7 @@ import com.reliefzk.middleware.ets.schedule.common.ScheduleConstants;
 import com.reliefzk.middleware.ets.schedule.jobstore.mixin.CronTriggerMixin;
 import com.reliefzk.middleware.ets.schedule.jobstore.mixin.JobDetailMixin;
 import com.reliefzk.middleware.ets.schedule.jobstore.mixin.TriggerMixin;
-import com.reliefzk.middleware.ets.util.IpUtils;
+import com.reliefzk.middleware.ets.util.IPUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.quartz.*;
 import org.quartz.impl.matchers.GroupMatcher;
@@ -129,7 +129,7 @@ public class MixinRedisJobStore implements JobStore {
             if(StringUtils.isEmpty(ips)){
                 return;
             }
-            String hostIp = IpUtils.getCurrMachineIP();
+            String hostIp = IPUtils.getIp();
             logger.info("HostIp: {}", hostIp);
             if(StringUtils.contains(ips, hostIp)){
                 logger.info("HostIp: {} is in NotWorkIpList: {}", hostIp, ips);
