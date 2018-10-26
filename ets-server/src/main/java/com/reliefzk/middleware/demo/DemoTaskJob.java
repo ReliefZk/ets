@@ -17,7 +17,9 @@ public class DemoTaskJob extends TaskJob {
 
     @Override
     public void executeInternal(JobExecutionContext context) throws JobExecutionException {
-        System.err.println("---------");
+        for(int i=0; i<10; i++) {
+            System.err.println("######3---------");
+        }
     }
 
 }
