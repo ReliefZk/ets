@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ets.iml" filepath="$PROJECT_DIR$/ets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ets-client/ets-client.iml" filepath="$PROJECT_DIR$/ets-client/ets-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ets-manage/ets-manage.iml" filepath="$PROJECT_DIR$/ets-manage/ets-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ets-schedule/ets-schedule.iml" filepath="$PROJECT_DIR$/ets-schedule/ets-schedule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ets-server/ets-server.iml" filepath="$PROJECT_DIR$/ets-server/ets-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ets-util/ets-util.iml" filepath="$PROJECT_DIR$/ets-util/ets-util.iml" />
     </modules>
   </component>

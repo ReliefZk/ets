@@ -2,8 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ets-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ets-manage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ets-schedule" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ets-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ets-util" charset="UTF-8" />
   </component>
 </project>

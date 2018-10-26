@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ets-client" />
+        <module name="ets-manage" />
         <module name="ets-schedule" />
-        <module name="ets-server" />
         <module name="ets-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ets" target="1.7" />
+      <module name="ets-client" target="1.8" />
+      <module name="ets-manage" target="1.7" />
       <module name="ets-schedule" target="1.7" />
-      <module name="ets-server" target="1.7" />
       <module name="ets-util" target="1.7" />
     </bytecodeTargetLevel>
   </component>
